@@ -1,0 +1,37 @@
+{
+  "name": "base-server",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Basic express api server",
+  "main": "app.js",
+  "scripts": {
+    "start": "source ./start.sh",
+    "test": "mocha --recursive"
+  },
+  "author": "James Spears",
+  "license": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "~1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.3",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.13",
+    "morgan": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://source.developers.google.com/p/ttyi-218415/r/api-server"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.6",
+    "@types/chai-http": "^3.0.5",
+    "@types/mocha": "^5.2.5",
+    "@types/mongodb": "^3.1.12",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
+}
